@@ -1,0 +1,160 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 15935283181,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.startUp()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Validate google search results after entering touchtunes as a keyword",
+        "description": "",
+        "id": "verify-google-search-scenario-and-links-on-touchtunes-press-website;validate-google-search-results-after-entering-touchtunes-as-a-keyword",
+        "after": [
+          {
+            "result": {
+              "duration": 1484668440,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3303713367,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User navigates to google",
+            "match": {
+              "location": "CommonStepDefs.user_navigates_to_google()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 579420325,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User enters touchtunes in search box",
+            "match": {
+              "location": "GooglePageStepDefs.user_enters_touchtunes_in_searchbox()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3379285726,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User clicks google search",
+            "match": {
+              "location": "GooglePageStepDefs.user_clicks_google_search()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 139923951,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User should see touchtunes results are displayed",
+            "match": {
+              "location": "GoogleSearchResultsStepDefs.user_should_see_touchtunes_results_are_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3536214908,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.startUp()"
+            }
+          }
+        ],
+        "line": 9,
+        "name": "Validate links on touchtunes press page",
+        "description": "",
+        "id": "verify-google-search-scenario-and-links-on-touchtunes-press-website;validate-links-on-touchtunes-press-page",
+        "after": [
+          {
+            "result": {
+              "duration": 1380783610,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4412554358,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User navigates to touchtunes press page",
+            "match": {
+              "location": "CommonStepDefs.user_navigates_to_touchtunes_press_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 88326251613,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User gets and logs all links",
+            "match": {
+              "location": "TouchtunesPressStepDefs.user_gets_and_logs_all_links()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 52504100552,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User checks and prints broken links",
+            "match": {
+              "location": "TouchtunesPressStepDefs.user_checks_and_prints_broken_links()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Verify Google search scenario and links on touchtunes press website",
+    "description": "",
+    "id": "verify-google-search-scenario-and-links-on-touchtunes-press-website",
+    "keyword": "Feature",
+    "uri": "WebTestScenarios.feature"
+  }
+]

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Scenario: Validate links on touchtunes press page" tests="4" skipped="0" failures="0" errors="0" timestamp="2019-06-30T23:50:30" hostname="LAPTOP-6GFP295O" time="142.238">
+  <properties/>
+  <testcase name="When User navigates to touchtunes press page" classname="Scenario: Validate links on touchtunes press page" time="0.0"/>
+  <testcase name="And User gets and logs all links" classname="Scenario: Validate links on touchtunes press page" time="0.0"/>
+  <testcase name="Then User checks and prints broken links" classname="Scenario: Validate links on touchtunes press page" time="0.001"/>
+  <testcase name="classMethod" classname="Scenario: Validate links on touchtunes press page" time="150.193"/>
+  <system-out><![CDATA[Current OS: windows 10/amd64
+Executing tests on chrome
+
+  Scenario: Validate google search results after entering touchtunes as a keyword ?[90m# WebTestScenarios.feature:3?[0m
+    ?[32mWhen ?[0m?[32mUser navigates to google?[0m                                                 ?[90m# CommonStepDefs.user_navigates_to_google()?[0m
+    ?[32mAnd ?[0m?[32mUser enters touchtunes in search box?[0m                                      ?[90m# GooglePageStepDefs.user_enters_touchtunes_in_searchbox()?[0m
+    ?[32mAnd ?[0m?[32mUser clicks google search?[0m                                                 ?[90m# GooglePageStepDefs.user_clicks_google_search()?[0m
+    ?[32mThen ?[0m?[32mUser should see touchtunes results are displayed?[0m                         ?[90m# GoogleSearchResultsStepDefs.user_should_see_touchtunes_results_are_displayed()?[0m
+Opening URL : http://www.touchtunes.com/about/press/
+]]></system-out>
+  <system-err><![CDATA[Starting ChromeDriver 2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73) on port 5009
+Only local connections are allowed.
+Jun 30, 2019 7:50:26 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+]]></system-err>
+</testsuite>

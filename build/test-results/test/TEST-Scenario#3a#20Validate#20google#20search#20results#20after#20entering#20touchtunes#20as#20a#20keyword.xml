@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Scenario: Validate google search results after entering touchtunes as a keyword" tests="5" skipped="0" failures="0" errors="0" timestamp="2019-06-30T23:50:16" hostname="LAPTOP-6GFP295O" time="5.592">
+  <properties/>
+  <testcase name="When User navigates to google" classname="Scenario: Validate google search results after entering touchtunes as a keyword" time="0.0"/>
+  <testcase name="And User enters touchtunes in search box" classname="Scenario: Validate google search results after entering touchtunes as a keyword" time="0.001"/>
+  <testcase name="And User clicks google search" classname="Scenario: Validate google search results after entering touchtunes as a keyword" time="0.0"/>
+  <testcase name="Then User should see touchtunes results are displayed" classname="Scenario: Validate google search results after entering touchtunes as a keyword" time="0.0"/>
+  <testcase name="classMethod" classname="Scenario: Validate google search results after entering touchtunes as a keyword" time="24.848"/>
+  <system-out><![CDATA[Current OS: windows 10/amd64
+Executing tests on chrome
+Opening URL : https://www.google.com
+]]></system-out>
+  <system-err><![CDATA[Starting ChromeDriver 2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73) on port 33394
+Only local connections are allowed.
+Jun 30, 2019 7:50:13 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+]]></system-err>
+</testsuite>
